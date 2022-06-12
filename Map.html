@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Map
+        var map1 = new Map();
+        console.log(map1);
+        console.log(typeof map1);
+
+        map1.set('id',1);
+        map1.set('name',"Pradeep Yadav");
+        map1.set('address', "Brj");
+        map1.set('email',"impradeep951@gmail.com");
+        map1.set('phone',"9804200369");
+        console.log(map1);
+        console.log(map1.get('id'));
+        map1.set('id',2);
+        console.log(map1);
+        console.log(map1.size)
+
+        //Map.clear()
+        // map1.clear();
+        // console.log(map1)
+
+        //map.delete()
+
+        // map1.delete('address');
+        // console.log(map1);
+        // console.log(map1.size);
+        // console.log(map1.has('address'));
+
+        //Map.forEach()
+        //Arrow function
+        map1.forEach((value,key) =>{
+            console.log(`${key} : ${value} `)
+        });
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
