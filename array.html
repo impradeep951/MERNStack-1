@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        var arr1 = [3,4,6,5,2,7,1,8];
+        var arr2 = new Array(4,2,7,4,8,2,5,6,3,5,8,6,7,4,5,9);
+        var arr3 = new Array();
+        arr3.push(3);
+        arr3.push(8);
+        arr3.push(2);
+        arr3.push(5);
+
+        console.log(arr1);
+        console.log(arr2);
+        console.log(arr3);
+        arr3.pop();
+        console.log(arr3);
+        console.log(arr1.length);
+        console.log(typeof(arr1));
+        arr1[2] = 2;
+        console.log(arr1);
+        delete arr1[1];
+        console.log(arr1);
+
+        var arr2 = new Array(4,2,7,4,8,2,5,6,3,5,8,6,7,4,5,9);
+        //Travesing array
+        for(let i = 0; i<arr2.length;i++){
+            console.log(arr2[i]);
+        }
+        //sum
+        //average
+        var sum=0;
+        for(let i = 0; i<arr2.length;i++){
+            //console.log(arr2[i]);
+            sum+=i;
+
+        }
+        var avg = sum/arr2.length;
+        
+        console.log(sum);
+        console.log(avg);
+
+        //Min and Max
+        // var max = Math.max(arr2);
+        // console.log(max);
+        let max = arr2[arr2.length-1];
+        for(let i = 0; i<arr2.length;i++){
+            if(arr2[i] > max){
+                max=arr2[i];
+                
+            }
+        }
+        console.log("Max: ",max);
+
+        let min = arr2[0];
+        for(let i=0;i<arr2.length;i++){
+            if(arr2[i]< min){
+                min=arr2[i];
+                console.log("Min: ",min);
+            }
+        }
+
+        //search in number
+        var arr4 = [3,4,6,5,2,7,1,8];
+        let num1 = 9;
+        var result = false;
+        for(let i =0; i<arr4.length; i++){
+            if(arr4[i] == num1){
+                console.log(` ${num1} found at ${i} index `);
+                result=true;
+                break;
+            }
+            
+        }
+        if(!result){
+            console.log(`${num1} Not found`)
+        }
+
+        //search2
+        var arr5 = [3,4,5,6,7,4,5,2,9];
+        var arr6 = new Array();
+        var  num2 = 4;
+        var result =false;
+        for(let i=0; i<arr5.length; i++){
+            if(arr5[i] == num2){
+                //console.log(`${num2} found at ${i} index `);
+                arr6.push(i);
+                result=true;
+                
+
+            }
+
+        }
+        if(!result){
+            console.log(`${num2} Not found`)
+        }
+        else{
+            console.log(`${num2} found in [${arr6}] indexes ${arr6.length} times. `)
+        }
+        */
+
+        //Array.at()
+        var arr8 = new Array(4,2,7,4,8,2);
+        console.log(arr8.at(2))
+
+        
+
+
+    </script>
+</body>
+</html>
